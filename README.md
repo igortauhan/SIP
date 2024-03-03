@@ -19,7 +19,7 @@ Exemplo:
 
 ``python3 main.py "/home/user/folder" "where"``
 
-Onde *"/home/user/folder"* é o diretório, e *"where"* é a frase a ser procurada. Para evitar problemas com o grep, mantenha o diretório a frase entre aspas.
+Onde *"/home/user/folder"* é o diretório, e *"where"* é a frase a ser procurada. Para evitar problemas com o grep, mantenha o diretório e a frase entre aspas.
 
 Saída:
 
