@@ -38,8 +38,7 @@ def search(directory, txt_files, text):
         result = search_text(directory, file, text)
 
         if result == "":
-            print("Texto não encontrado em nenhum dos arquivos")
-            return
+            continue
 
         print(f'Arquivo: {file.split(".")[0]}\nEncontrado no(s) trecho(s):\n{result}')
 
