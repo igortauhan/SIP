@@ -4,8 +4,8 @@ from service.system_commands import list_files, convert_pdf_to_text, search_text
 
 def get_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument("directory", help="Directory where the PDF files are stored")
-    parser.add_argument("text", help="Text to be searched")
+    parser.add_argument("directory", help="Diretório onde os arquivos PDF estão armazenados")
+    parser.add_argument("text", help="Frase procurada")
 
     arguments = parser.parse_args()
 
