@@ -4,8 +4,8 @@ from service.system_commands import list_files, convert_pdf_to_text, search_text
 
 def get_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument("directory", help="Directory where the PDF files are stored")
-    parser.add_argument("text", help="Text to be searched")
+    parser.add_argument("diretorio", help="Diretório onde os arquivos PDF estão armazenados")
+    parser.add_argument("texto", help="Frase procurada")
 
     arguments = parser.parse_args()
 
@@ -52,8 +52,8 @@ def delete_txt_files(directory, txt_files):
 def main():
     args = get_args()
 
-    directory = args.directory
-    text = args.text
+    directory = args.diretorio
+    text = args.texto
 
     # 1 Get all pdf files
     pdf_files = find_all_pdfs(directory)
