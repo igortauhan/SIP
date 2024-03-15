@@ -2,7 +2,7 @@
 
 ## Motivação
 
-Estudando para uma prova, onde o material previsto no edital chega a mais de 10.000 páginas, vi a necessidade de uma ferramenta que buscasse por textos nos PDFs e retornasse o nome do arquivo e o trecho onde a frase aparece.
+Estudando para uma prova, que o material previsto no edital chega a mais de 10.000 páginas, vi a necessidade de uma ferramenta que buscasse por textos nos PDFs e retornasse o nome do arquivo e o trecho onde a frase aparece.
 
 ## Requerimentos
 
